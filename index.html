@@ -1,21 +1,125 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vijay | Digital Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vijay | Digital Portfolio</title>
+<meta name="google-site-verification" content="UPGbKUeEcp_kLoULfpZWTrAnzZn3iJSt1o99szE2iow">
+<meta name="description" content="Vijay's portfolio - AI and Data Science student, developer and content creator.">
 
-    <meta name="google-site-verification" content="UPGbKUeEcp_kLoULfpZWTrAnzZn3iJSt1o99szE2iow" />
-
-    <meta name="description" content="Vijay's digital portfolio featuring MotoVerse Official and ValueXDose.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ background:#08070d;color:#f5f2ff;
+ font-family:Arial,sans-serif;line-height:1.7
+}
+header{
+ padding:20px 8%;display:flex;justify-content:space-between;
+ align-items:center;border-bottom:1px solid #292039
+}
+.logo{font-size:25px;font-weight:bold;color:#a855f7}
+nav a{color:#ddd;text-decoration:none;margin-left:20px}
+nav a:hover{color:#bd72ff}
+.hero{
+ min-height:75vh;padding:100px 10%;
+ display:flex;flex-direction:column;justify-content:center;
+ background:radial-gradient(ellipse at 80% 40%,#39105d 0%,#08070d 55%)
+}
+.tag{color:#c084fc}
+h1{font-size:clamp(45px,8vw,85px);line-height:1.1;margin:20px 0}
+h1 span,h2 span{color:#a855f7}
+.hero p{font-size:19px;color:#c8c2d3;max-width:650px}
+.btn{
+ display:inline-block;margin-top:25px;margin-right:12px;
+ padding:12px 23px;border-radius:30px;
+ background:#8b21dc;color:white;text-decoration:none;
+ font-weight:bold
+}
+.btn.secondary{background:transparent;border:1px solid #a855f7}
+section{padding:75px 10%}
+h2{font-size:36px;margin-bottom:20px}
+.card{
+ background:#15111e;border:1px solid #38234e;
+ border-radius:18px;padding:25px;margin-top:20px
+}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card h3{color:#c084fc;margin-bottom:10px}
+.card p{color:#c9c2d3}
+.social a{display:inline-block;margin:10px 12px 0 0}
+footer{
+ text-align:center;padding:25px;border-top:1px solid #292039;
+ color:#aaa
+}
+@media(max-width:600px){
+ header{flex-direction:column;gap:12px}
+ nav a{margin:0 7px;font-size:13px}
+ .hero{padding:75px 7%;min-height:65vh}
+ section{padding:55px 7%}
+}
+</style>
 </head>
-<body>
-    <h1>Vijay's Digital Portfolio</h1>
-    <p>Content Creator | Digital Branding | Social Media</p>
 
-    <h2>My Platforms</h2>
-    <p><a href="https://www.instagram.com/motoverse__official/">Instagram - MotoVerse Official</a></p>
-    <p><a href="https://youtube.com/@valuexdose">YouTube - ValueXDose</a></p>
+<body>
+<header>
+ <div class="logo">VJ.</div>
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#socials">Socials</a>
+ </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <div class="tag">WELCOME TO MY DIGITAL WORLD</div>
+ <h1>Hi, I'm <span>Vijay.</span></h1>
+ <p>AI & Data Science Student | Developer | Content Creator</p>
+ <p>Exploring technology, building ideas and creating digital experiences.</p>
+ <div>
+  <a class="btn" href="#about">Explore My Portfolio</a>
+  <a class="btn secondary" href="#socials">Connect With Me</a>
+ </div>
+</section>
+
+<section id="about">
+ <h2>About <span>Me</span></h2>
+ <div class="card">
+  <p>I'm Vijay, a third-year B.Tech Artificial Intelligence and Data Science student.</p>
+  <p>I'm interested in artificial intelligence, software development, digital media and entrepreneurship. My goal is to build useful technology and turn creative ideas into reality.</p>
+ </div>
+</section>
+
+<section id="skills">
+ <h2>My <span>Interests</span></h2>
+ <div class="grid">
+  <div class="card"><h3>Artificial Intelligence</h3><p>AI applications and intelligent systems.</p></div>
+  <div class="card"><h3>Python & Data Science</h3><p>Programming, data analysis and learning.</p></div>
+  <div class="card"><h3>Content Creation</h3><p>Digital content and creative projects.</p></div>
+  <div class="card"><h3>Digital Branding</h3><p>Social media and online presence.</p></div>
+ </div>
+</section>
+
+<section id="socials">
+ <h2>My <span>Social Platforms</span></h2>
+ <div class="grid">
+  <div class="card">
+   <h3>Instagram</h3>
+   <p>MotoVerse Official</p>
+   <a class="btn" href="https://www.instagram.com/motoverse__official/" target="_blank">Visit Instagram</a>
+  </div>
+  <div class="card">
+   <h3>YouTube</h3>
+   <p>ValueXDose</p>
+   <a class="btn" href="https://youtube.com/@valuexdose" target="_blank">Visit YouTube</a>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <p>© 2026 Vijay | Built with passion and purpose.</p>
+</footer>
 </body>
 </html>
